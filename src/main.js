@@ -3,15 +3,21 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueResource from 'vue-resource';
-// importando o router!
 import VueRouter from 'vue-router';
 
+import { routes } from './routes';
+
+Vue.use(VueRouter);
+
+const router = new VueRouter({
+  routes,
+  mode: 'history'
+});
 
 Vue.use(VueResource);
-Vue.use(VueRouter);
-// registrando o router
 
 new Vue({
   el: '#app',
+  router,
   render: h => h(App)
 })
