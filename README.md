@@ -13,7 +13,7 @@ Esse projeto foi desenvolvido com intuito de praticar e criar uma estrutura bás
 * Visual Studio Code 
 * Node.Js 
 * Vue.Js
-* ES 5/6   <i class="fab fa-js"></i>
+* ES 5/6 
 
 
 
